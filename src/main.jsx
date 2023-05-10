@@ -11,6 +11,7 @@ import Home from './components/Home/Home.jsx';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
+import Jobs from './components/Jobs/Jobs';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('https://shadhin-pesha.free.beeceptor.com/jobs')
       },
       {
         path: "statistics",

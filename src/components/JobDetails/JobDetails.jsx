@@ -1,12 +1,12 @@
 /*eslint-disable*/
 import React from 'react';
 
-const Statistics = () => {
+const JobDetails = () => {
     return (
         <div>
-            <h3>statistics</h3>
+
         </div>
     );
 };
 
-export default Statistics;
+export default JobDetails;

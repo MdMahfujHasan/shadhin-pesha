@@ -1,0 +1,17 @@
+.common-title {
+    color: #1A1919;
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0;
+}
+
+.common-description {
+    color: #757575;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.list-container {
+    display: flex;
+    margin-bottom: 130px;
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "Technical Database Engineer",
+        "company": "chatgpt ask koro-1",
+        "place": [
+            "Onsite",
+            "Hybrid"
+        ],
+        "location": "Dhaka, Bangladesh",
+        "salaryRange": [
+            80,
+            100
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "Senior Product Designer",
+        "company": "chatgpt ask koro-2",
+        "place": [
+            "Remote",
+            "Hybrid"
+        ],
+        "location": "Barisal, Bangladesh",
+        "salaryRange": [
+            40,
+            70
+        ]
+    },
+    {
+        "id": 3,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "Software Engineer",
+        "company": "chatgpt ask koro-3",
+        "place": [
+            "Onsite",
+            "Hybrid"
+        ],
+        "location": "Comilla, Bangladesh",
+        "salaryRange": [
+            100,
+            150
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "Jr. Web Developer",
+        "company": "chatgpt ask koro-4",
+        "place": [
+            "Remote",
+            "Hybrid"
+        ],
+        "location": "Sylhet, Bangladesh",
+        "salaryRange": [
+            20,
+            30
+        ]
+    },
+    {
+        "id": 5,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "Senior Project Manager",
+        "company": "chatgpt ask koro-5",
+        "place": [
+            "Onsite",
+            "Hybrid"
+        ],
+        "location": "Gazipur, Bangladesh",
+        "salaryRange": [
+            120,
+            150
+        ]
+    },
+    {
+        "id": 6,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "title": "HR Executive",
+        "company": "chatgpt ask koro-6",
+        "place": [
+            "Remote",
+            "Hybrid"
+        ],
+        "location": "Khulna, Bangladesh",
+        "salaryRange": [
+            80,
+            110
+        ]
+    }
+]

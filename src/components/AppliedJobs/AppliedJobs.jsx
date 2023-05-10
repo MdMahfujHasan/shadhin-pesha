@@ -4,7 +4,7 @@ import React from 'react';
 const AppliedJobs = () => {
     return (
         <div>
-            <h4>appli jobs</h4>
+            <h4>applied jobs</h4>
         </div>
     );
 };
