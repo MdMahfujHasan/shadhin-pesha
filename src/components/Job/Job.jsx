@@ -3,7 +3,7 @@ import React from 'react';
 import './Job.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faBangladeshiTakaSign } from '@fortawesome/free-solid-svg-icons';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
     const { id, img, title, company, place, location, salaryRange } = job;
@@ -22,7 +22,7 @@ const Job = ({ job }) => {
             </p>
             <p className='job-text'>
                 <FontAwesomeIcon icon={faBangladeshiTakaSign} style={{ marginRight: '5px' }} />
-                Salary: {salaryRange[0]}k - {salaryRange[1]}k</p>
+                Salary: {salaryRange[0]}k-{salaryRange[1]}k</p>
             <Link to={`/job/${id}`}>
                 <button className='btn-common'>View Details</button>
             </Link>

@@ -12,7 +12,17 @@
         "salaryRange": [
             80,
             100
-        ]
+        ],
+        "description": "A software engineer is responsible for designing, developing, and maintaining software applications. They analyze user needs and design software solutions to meet those requirements. They write code, perform testing, and collaborate with cross-functional teams to ensure the successful delivery of high-quality software products.",
+        "responsibility": "A software engineer's primary responsibility is to design, develop, and maintain software applications or systems. They analyze user requirements, create technical specifications, and implement robust and efficient solutions using programming languages and frameworks. Additionally, software engineers collaborate with cross-functional teams, conduct code reviews, and ensure software quality through testing and debugging.",
+        "education": "Bachelor's degree in Computer Science (CS) from any reputed university.",
+        "experienceRange": [
+            2,
+            3
+        ],
+        "phone": 538816699,
+        "email": "johnsmith@gmail.com",
+        "address": "House #12, Road #5, Uttara, Dhaka 1230"
     },
     {
         "id": 2,
@@ -27,7 +37,17 @@
         "salaryRange": [
             120,
             150
-        ]
+        ],
+        "description": "A data scientist's primary responsibility is to collect, process, and analyze large datasets to extract insights and identify patterns. They use statistical and machine learning techniques to develop predictive models and make data-driven decisions. Additionally, data scientists communicate their findings to stakeholders and collaborate with cross-functional teams to drive business outcomes.",
+        "responsibility": "A data scientist's primary responsibility is to analyze large volumes of complex data and derive meaningful insights to solve business problems. They develop and implement statistical models and machine learning algorithms to extract patterns and trends from data. Data scientists also collaborate with cross-functional teams, interpret findings, and communicate actionable recommendations to stakeholders.",
+        "education": "Bachelor's and Master's degree in Computer Science (CS) from a top reputed university.",
+        "experienceRange": [
+            5,
+            8
+        ],
+        "phone": 651168374,
+        "email": "david.wilson@outlook.com",
+        "address": "House #25, Khan Lane, Rupatoli, Barisal 8200"
     },
     {
         "id": 3,
@@ -42,7 +62,17 @@
         "salaryRange": [
             100,
             150
-        ]
+        ],
+        "description": "A data scientist is responsible for collecting, cleaning, and analyzing large datasets to extract valuable insights and trends. They develop and apply statistical models and machine learning algorithms to solve complex problems and make data-driven decisions. Additionally, data scientists communicate their findings effectively to stakeholders and contribute to the development of data-driven strategies and solutions within an organization.",
+        "responsibility": "Data scientists are responsible for collecting, cleaning, and analyzing vast amounts of data to identify trends, patterns, and insights. They develop and implement machine learning models and algorithms to solve complex problems and make predictions. Data scientists also communicate their findings to stakeholders, providing actionable insights and recommendations to drive data-driven decision-making within organizations.",
+        "education": "Bachelor's and Master's degree in Computer Science (CS) from any reputed university.",
+        "experienceRange": [
+            3,
+            5
+        ],
+        "phone": 912360653,
+        "email": "sarahbrown@yahoo.com",
+        "address": "House #10, Road #6, Kandirpar, Comilla 3500"
     },
     {
         "id": 4,
@@ -57,7 +87,17 @@
         "salaryRange": [
             20,
             30
-        ]
+        ],
+        "description": "A junior web developer's primary responsibility is to assist in the development and maintenance of web applications or websites. They work closely with senior developers to implement and test code, troubleshoot issues, and ensure the functionality and performance of the web projects. Junior web developers also collaborate with cross-functional teams, contribute to design discussions, and participate in code reviews.",
+        "responsibility": "As a junior web developer, your responsibilities include assisting in the development and maintenance of web applications and websites. This involves writing clean, efficient code, troubleshooting issues, and implementing user interface designs. You'll work closely with senior developers to learn new technologies, participate in code reviews, and contribute to the overall improvement of the development process.",
+        "education": "Bachelor's degree in Computer Science (CS) from any reputed university.",
+        "experienceRange": [
+            0,
+            1
+        ],
+        "phone": 161399966,
+        "email": "jasonlee@gmail.com",
+        "address": "House #8, Shahjalal Road, Sylhet 3100"
     },
     {
         "id": 5,
@@ -72,7 +112,17 @@
         "salaryRange": [
             120,
             150
-        ]
+        ],
+        "description": "A senior project manager is responsible for overseeing the planning, execution, and completion of complex projects within an organization. They lead and motivate project teams, define project goals and objectives, and ensure adherence to project timelines and budgets. Additionally, senior project managers communicate with stakeholders, manage risks, and facilitate effective project coordination and collaboration.",
+        "responsibility": "As a senior project manager, your key responsibilities involve leading and coordinating project teams, defining project scopes, goals, and deliverables, and ensuring timely completion within budget. You'll be responsible for managing project risks, resolving issues, and making strategic decisions to drive successful project outcomes. Additionally, you'll oversee project communication, stakeholder management, and report progress to key stakeholders to ensure alignment and transparency throughout the project lifecycle.",
+        "education": "Bachelor's and Master's degree in Computer Science (CS) from a top reputed university.",
+        "experienceRange": [
+            3,
+            4
+        ],
+        "phone": 758846808,
+        "email": "lisa.miller123@gmail.com",
+        "address": "House #25, Road #7, Joydebpur, Gazipur 1700"
     },
     {
         "id": 6,
@@ -87,6 +137,16 @@
         "salaryRange": [
             15,
             30
-        ]
+        ],
+        "description": "A UI/UX designer's job is to create intuitive and visually appealing user interfaces for digital products or websites. They conduct user research to understand user needs, preferences, and behaviors, and translate those insights into effective design solutions. UI/UX designers also collaborate with cross-functional teams, including developers and product managers, to ensure the seamless integration of design and functionality in the final product.",
+        "responsibility": "The main responsibility of a UI/UX designer is to create intuitive and visually appealing user interfaces for digital products, websites, or applications. They conduct user research to understand user needs, behaviors, and preferences, and then use that knowledge to design user-centered interfaces. Additionally, UI/UX designers create wireframes, prototypes, and interactive designs, collaborating with development teams to ensure a seamless and engaging user experience.",
+        "education": "Bachelor's degree in any discipline from any reputed university.",
+        "experienceRange": [
+            0,
+            1
+        ],
+        "phone": 427943054,
+        "email": "emilyjones@gmail.com",
+        "address": "House #14, Road #7, Khan Jahan Ali Road, Sonadanga, Khulna 9100"
     }
 ]
