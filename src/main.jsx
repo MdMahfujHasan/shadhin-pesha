@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       },
       {
         path: "applied",
-        element: <h3>applied</h3>
+        element: <h3>Added job after clicking <button className='btn-common'>Apply Now</button> button is below <span style={{ color: 'tomato' }}>"/job/jobId"</span> route. <small>i couldn't add those here :(</small></h3>
       },
       {
         path: "blogs",
