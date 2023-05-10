@@ -1,6 +1,9 @@
 /*eslint-disable*/
 import React from 'react';
 import './Job.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faBangladeshiTakaSign } from '@fortawesome/free-solid-svg-icons';
+import { Link, NavLink } from 'react-router-dom';
 
 const Job = ({ job }) => {
     const { id, img, title, company, place, location, salaryRange } = job;
@@ -13,9 +16,16 @@ const Job = ({ job }) => {
                 <span className='job-place'>{place[0]}</span>
                 <span className='job-place'>{place[1]}</span>
             </p>
-            <p className='job-text'>{location}</p>
-            <p className='job-text'>Salary: {salaryRange[0]}k - {salaryRange[1]}k</p>
-            <button className='btn-common'>View Details</button>
+            <p className='job-text'>
+                <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: '5px' }} />
+                {location}
+            </p>
+            <p className='job-text'>
+                <FontAwesomeIcon icon={faBangladeshiTakaSign} style={{ marginRight: '5px' }} />
+                Salary: {salaryRange[0]}k - {salaryRange[1]}k</p>
+            <Link to={`/job/${id}`}>
+                <button className='btn-common'>View Details</button>
+            </Link>
         </div>
     );
 };

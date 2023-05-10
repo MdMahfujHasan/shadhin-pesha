@@ -12,6 +12,7 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
 import Jobs from './components/Jobs/Jobs';
+import JobDetails from './components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('https://shadhin-pesha.free.beeceptor.com/jobs')
+        loader: () => fetch('https://shadhin-peshaa.free.beeceptor.com/jobs')
+      },
+      {
+        path: "job/:jobId",
+        element: <JobDetails></JobDetails>,
+        loader: ({ params }) => fetch(`https://shadhin-peshaa.free.beeceptor.com/job/${params.jobId}`)
       },
       {
         path: "statistics",

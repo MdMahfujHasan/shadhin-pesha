@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "title": "Technical Database Engineer",
-        "company": "chatgpt ask koro-1",
+        "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+        "title": "Software Engineer",
+        "company": "TechMaster Solutions",
         "place": [
             "Onsite",
             "Hybrid"
@@ -16,24 +16,24 @@
     },
     {
         "id": 2,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "title": "Senior Product Designer",
-        "company": "chatgpt ask koro-2",
+        "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "title": "Data Scientist",
+        "company": "ByteTech Innovations",
         "place": [
             "Remote",
             "Hybrid"
         ],
         "location": "Barisal, Bangladesh",
         "salaryRange": [
-            40,
-            70
+            120,
+            150
         ]
     },
     {
         "id": 3,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "title": "Software Engineer",
-        "company": "chatgpt ask koro-3",
+        "img": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "title": "Product Manager",
+        "company": "NovaTech Labs",
         "place": [
             "Onsite",
             "Hybrid"
@@ -46,9 +46,9 @@
     },
     {
         "id": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
         "title": "Jr. Web Developer",
-        "company": "chatgpt ask koro-4",
+        "company": "Genius Technologies",
         "place": [
             "Remote",
             "Hybrid"
@@ -61,9 +61,9 @@
     },
     {
         "id": 5,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80",
         "title": "Senior Project Manager",
-        "company": "chatgpt ask koro-5",
+        "company": "Cybervision Systems",
         "place": [
             "Onsite",
             "Hybrid"
@@ -76,17 +76,17 @@
     },
     {
         "id": 6,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "title": "HR Executive",
-        "company": "chatgpt ask koro-6",
+        "img": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "title": "UX/UI Designer",
+        "company": "Techtronix Solutions",
         "place": [
             "Remote",
             "Hybrid"
         ],
         "location": "Khulna, Bangladesh",
         "salaryRange": [
-            80,
-            110
+            15,
+            30
         ]
     }
 ]

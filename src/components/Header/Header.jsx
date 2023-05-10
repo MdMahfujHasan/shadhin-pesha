@@ -12,7 +12,7 @@ const Header = () => {
                 <ActiveLink to="/statistics">Statistics</ActiveLink>
                 <ActiveLink to="/applied">Applied Jobs</ActiveLink>
                 <ActiveLink to="/blogs">Blogs</ActiveLink>
-                <ActiveLink to="/">Jobs</ActiveLink>
+                <ActiveLink to="/jobs">Jobs</ActiveLink>
             </nav>
             <button className='btn-common'>Start Applying</button>
         </div>
