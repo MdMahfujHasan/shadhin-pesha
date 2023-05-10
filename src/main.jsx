@@ -34,8 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "apply",
-        element: <Applied></Applied>,
-        loader: cartProductsLoader
+        element: <Cart></Cart>
       },
       {
         path: "statistics",
