@@ -1,10 +1,18 @@
 /*eslint-disable*/
 import React from 'react';
+import Cart from '../Cart/Cart';
 
-const AppliedJobs = () => {
+const AppliedJobs = ({ cart }) => {
+
     return (
         <div>
-            <h4>applied jobs</h4>
+            <h3>Applied Jobs</h3>
+            {
+                cart.map(job => <Cart
+                    key={job.id}
+                    job={job}
+                ></Cart>)
+            }
         </div>
     );
 };

@@ -1,0 +1,22 @@
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+.cart-container img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 1px;
+    border: 1px solid #7E90FE;
+    margin-right: 32px;
+}
+
+.cart-info-container {
+    display: flex;
+    align-items: center;
+}

@@ -11,8 +11,11 @@ import Home from './components/Home/Home.jsx';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
-import Jobs from './components/Jobs/Jobs';
 import JobDetails from './components/JobDetails/JobDetails';
+import NotFound from './components/NotFound/NotFound';
+import Cart from './components/Cart/Cart';
+import cartProductsLoader from './loader/cartJobsLoader';
+import Applied from './components/Applied/Applied';
 
 const router = createBrowserRouter([
   {
@@ -22,12 +25,17 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('https://shadhin-peshaa.free.beeceptor.com/jobs')
+        loader: () => fetch('https://pesha.free.beeceptor.com/jobs')
       },
       {
         path: "job/:jobId",
         element: <JobDetails></JobDetails>,
-        loader: ({ params }) => fetch(`https://shadhin-peshaa.free.beeceptor.com/job/${params.jobId}`)
+        loader: ({ params }) => fetch(`https://pesha.free.beeceptor.com/job/${params.jobId}`)
+      },
+      {
+        path: "apply",
+        element: <Applied></Applied>,
+        loader: cartProductsLoader
       },
       {
         path: "statistics",
@@ -40,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "blogs",
         element: <Blogs></Blogs>
+      },
+      {
+        path: "*",
+        element: <NotFound></NotFound>
       }
     ]
   },
