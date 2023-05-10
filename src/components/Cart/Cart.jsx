@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBangladeshiTakaSign, faCalendarCheck, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = ({ job }) => {
-    const { img, title, company, place, location, salaryRange } = job;
+    const { id, img, title, company, place, location, salaryRange } = job;
     return (
         <div className='cart-container'>
             <div className='cart-info-container'>
@@ -28,7 +28,7 @@ const Cart = ({ job }) => {
                     </p>
                 </div>
             </div>
-            <Link to="/">
+            <Link to={`/job/${id}`}>
                 <button className='btn-common'>View Details</button>
             </Link>
         </div>

@@ -14,6 +14,7 @@ import Blogs from './components/Blogs/Blogs';
 import JobDetails from './components/JobDetails/JobDetails';
 import NotFound from './components/NotFound/NotFound';
 import Cart from './components/Cart/Cart';
+import Jobs from './components/Jobs/Jobs';
 
 const router = createBrowserRouter([
   {
@@ -39,8 +40,12 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>
       },
       {
+        path: "jobs",
+        element: <h3>jobs</h3>
+      },
+      {
         path: "applied",
-        element: <AppliedJobs></AppliedJobs>
+        element: <h3>applied</h3>
       },
       {
         path: "blogs",

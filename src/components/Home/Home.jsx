@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import JobCategoryList from '../JobCategoryList/JobCategoryList';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import Jobs from '../Jobs/Jobs';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <JobCategoryList></JobCategoryList>
             <FeaturedJobs></FeaturedJobs>
             <Jobs></Jobs>
+            <Footer></Footer>
         </div>
     );
 };
