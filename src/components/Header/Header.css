@@ -39,3 +39,19 @@ nav a {
 .btn-common:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 662px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 15px;
+    }
+}

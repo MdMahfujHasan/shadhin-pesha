@@ -5,3 +5,10 @@
     width: 60%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 662px) {
+    .jobs-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
