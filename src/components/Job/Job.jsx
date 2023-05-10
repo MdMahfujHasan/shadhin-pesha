@@ -17,11 +17,11 @@ const Job = ({ job }) => {
                 <span className='job-place'>{place[1]}</span>
             </p>
             <p className='job-text'>
-                <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: '5px' }} />
+                <FontAwesomeIcon icon={faLocationDot} className='icon' />
                 {location}
             </p>
             <p className='job-text'>
-                <FontAwesomeIcon icon={faBangladeshiTakaSign} style={{ marginRight: '5px' }} />
+                <FontAwesomeIcon icon={faBangladeshiTakaSign} className='icon' />
                 Salary: {salaryRange[0]}k-{salaryRange[1]}k</p>
             <Link to={`/job/${id}`}>
                 <button className='btn-common'>View Details</button>

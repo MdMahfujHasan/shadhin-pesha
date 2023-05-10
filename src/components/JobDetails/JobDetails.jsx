@@ -8,42 +8,54 @@ import { faBangladeshiTakaSign, faCalendarCheck, faPhone, faEnvelope, faLocation
 const JobDetails = () => {
     const job = useLoaderData();
     console.log(job);
-    const { img, title, company, place, location, salaryRange, description, responsibility, education, experienceRange, phone, email, address } = job;
+    const { title, salaryRange, description, responsibility, education, experienceRange, phone, email, address } = job;
     return (
         <div className='job-details-container'>
             <div>
-                <p><b>Job Description: </b>{description}</p>
-                <p><b>Job Responsibility: </b>{responsibility}</p>
-                <p><b>Educational Requirements: </b>{education}</p>
-                <p><b>Experiences: </b>{experienceRange[0]}-{experienceRange[1]} years in this field.</p>
+                <p>
+                    <b>Job Description: </b>
+                    <span className='common-description'>{description}</span>
+                </p>
+                <p>
+                    <b>Job Responsibility: </b>
+                    <span className='common-description'>{responsibility}</span>
+                </p>
+                <p>
+                    <b>Educational Requirements: </b>
+                    <span className='common-description'>{education}</span>
+                </p>
+                <p>
+                    <b>Experiences: </b>
+                    <span className='common-description'>{experienceRange[0]}-{experienceRange[1]} years in this field.</span>
+                </p>
             </div>
-            <div>
+            <div className='job-details-info'>
                 <h4>Job Details</h4>
                 <hr />
                 <p>
-                    <FontAwesomeIcon icon={faBangladeshiTakaSign} style={{ marginRight: '5px' }} />
+                    <FontAwesomeIcon icon={faBangladeshiTakaSign} className='icon' />
                     <b>Salary: </b>
-                    {salaryRange[0]}k-{salaryRange[1]}k
+                    {salaryRange[0]}k-{salaryRange[1]}k per month
                 </p>
                 <p>
-                    <FontAwesomeIcon icon={faCalendarCheck} style={{ marginRight: '5px' }} />
+                    <FontAwesomeIcon icon={faCalendarCheck} className='icon' />
                     <b>Job Title: </b>
                     {title}
                 </p>
                 <h4>Contact Information</h4>
                 <hr />
                 <p>
-                    <FontAwesomeIcon icon={faPhone} style={{ marginRight: '5px' }} />
+                    <FontAwesomeIcon icon={faPhone} className='icon' />
                     <b>Phone: </b>
                     {phone}
                 </p>
                 <p>
-                    <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '5px' }} />
+                    <FontAwesomeIcon icon={faEnvelope} className='icon' />
                     <b>Email: </b>
                     {email}
                 </p>
                 <p>
-                    <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: '5px' }} />
+                    <FontAwesomeIcon icon={faLocationDot} className='icon' />
                     <b>Address: </b>
                     {address}
                 </p>
