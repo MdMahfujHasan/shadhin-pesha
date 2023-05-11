@@ -9,12 +9,11 @@ import {
 import Main from './components/Layout/Main.jsx';
 import Home from './components/Home/Home.jsx';
 import Statistics from './components/Statistics/Statistics';
-import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
 import JobDetails from './components/JobDetails/JobDetails';
 import NotFound from './components/NotFound/NotFound';
-import Cart from './components/Cart/Cart';
-import Jobs from './components/Jobs/Jobs';
+import AppliedJobs2 from './components/AppliedJobs2/AppliedJobs2';
+import AppliedJobs3 from './components/AppliedJobs3/AppliedJobs3';
 
 const router = createBrowserRouter([
   {
@@ -24,29 +23,25 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('https://peshaa.free.beeceptor.com/jobs')
+        loader: () => fetch('https://pesha1.free.beeceptor.com/jobs')
       },
       {
         path: "job/:jobId",
         element: <JobDetails></JobDetails>,
-        loader: ({ params }) => fetch(`https://peshaa.free.beeceptor.com/job/${params.jobId}`)
-      },
-      {
-        path: "apply",
-        element: <Cart></Cart>
+        loader: ({ params }) => fetch(`https://pesha1.free.beeceptor.com/job/${params.jobId}`)
       },
       {
         path: "statistics",
         element: <Statistics></Statistics>
       },
       {
-        path: "jobs",
-        element: <h3>jobs</h3>
-      },
-      {
         path: "applied",
-        element: <h3>Added job after clicking <button className='btn-common'>Apply Now</button> button is below <span style={{ color: 'tomato' }}>"/job/jobId"</span> route. <small>i couldn't add those here :(</small></h3>
+        element: <AppliedJobs3></AppliedJobs3>
       },
+      // {
+      //   path: "applied",
+      //   element: <h3>Added job after clicking <button className='btn-common'>Apply Now</button> button is below <span style={{ color: 'tomato' }}>"/job/jobId"</span> route. <small>i couldn't add those here :(</small></h3>
+      // },
       {
         path: "blogs",
         element: <Blogs></Blogs>

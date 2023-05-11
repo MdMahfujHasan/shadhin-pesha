@@ -1,11 +1,14 @@
 /*eslint-disable*/
-import React, { useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './JobDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBangladeshiTakaSign, faCalendarCheck, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { addToDb, deleteJobsCart, getJobsCart } from '../../../utilities/fakedb'
+import { addToDb, getJobsCart } from '../../../utilities/fakedb'
 import AppliedJobs from '../AppliedJobs/AppliedJobs';
+import AppliedJobs2 from '../AppliedJobs2/AppliedJobs2';
+
+export const AppliedJobsContext = createContext([]);
 
 const JobDetails = () => {
     const job = useLoaderData();
@@ -49,10 +52,10 @@ const JobDetails = () => {
         addToDb(job.id);
     }
 
-    const handleClearCart = () => {
-        setCart([]);
-        deleteJobsCart();
-    }
+    // const handleClearCart = () => {
+    //     setCart([]);
+    //     deleteJobsCart();
+    // }
 
     const { id, title, salaryRange, description, responsibility, education, experienceRange, phone, email, address } = job;
     return (
@@ -108,9 +111,10 @@ const JobDetails = () => {
                 </p>
                 <button onClick={() => handleAddToCart(job)} className='btn-common'>Apply Now</button>
             </div>
-            <AppliedJobs
-                cart={cart}
-            ></AppliedJobs>
+            <AppliedJobs cart={cart} ></AppliedJobs>
+            <AppliedJobsContext.Provider value={cart}>
+                <AppliedJobs2></AppliedJobs2>
+            </AppliedJobsContext.Provider>
         </div >
     );
 };
