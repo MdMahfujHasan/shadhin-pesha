@@ -5,9 +5,8 @@ import Applied from '../Applied/Applied';
 
 const AppliedJobs3 = () => {
     const jobsCart = getJobsCart();
-    // console.log(jobsCart);
-    // console.log(Object.keys(jobsCart))
     const jobsIds = Object.keys(jobsCart);
+
     return (
         <div>
             {

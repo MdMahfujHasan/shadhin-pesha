@@ -1,11 +1,12 @@
 /*eslint-disable*/
 import React from 'react';
+import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div style={{ width: '90%', margin: '0 auto' }}>
+        <div className='blogs'>
             <h3>When should you use Context API?</h3>
-            <p>The Context API in React is a powerful feature that allows you to manage state and share data between components without the need for prop drilling. Here are some scenarios where you should consider using the Context API:
+            <p><span>T</span>he Context API in React is a powerful feature that allows you to manage state and share data between components without the need for prop drilling. Here are some scenarios where you should consider using the Context API:
                 <br />
                 Sharing global data: If you have data that needs to be accessed by multiple components throughout your application, the Context API can be a good choice. It allows you to create a context object that holds the data and make it accessible to any component that subscribes to that context.
                 <br />
@@ -18,14 +19,14 @@ const Blogs = () => {
                 It's important to note that while the Context API can be a powerful tool, it's not always the best choice for every situation. If you only have a small number of components that need to share data, using props might be simpler and more straightforward. Additionally, if you are already using a state management library like Redux or MobX, you may prefer to stick with that for managing your application's state.
             </p>
             <h3>What's custom hook in React?</h3>
-            <p>In React, a custom hook is a JavaScript function that allows you to reuse stateful logic or side effects across multiple components. Custom hooks are a way to extract reusable code from components and share that logic between different parts of your application.
+            <p><span>A</span> custom hook is a JavaScript function that allows you to reuse stateful logic or side effects across multiple components. Custom hooks are a way to extract reusable code from components and share that logic between different parts of your application.
                 <br />
                 To create a custom hook, you simply define a function that uses the existing React hooks or other custom hooks. By convention, custom hooks start with the prefix "use" to indicate that they follow the rules of hooks.
                 <br />
                 Custom hooks can be reused in multiple components, allowing you to avoid duplicating code and maintain a consistent behavior across different parts of your application. They enable you to separate concerns and improve code organization by abstracting complex logic into reusable hooks.
             </p>
             <h3>What's useRef and useMemo?</h3>
-            <p>useRef and useMemo are both hooks provided by React that serve different purposes:
+            <p><span>u</span>seRef and useMemo are both hooks provided by React that serve different purposes:
                 <br />
                 <b>useRef:</b>
                 <br />

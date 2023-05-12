@@ -16,10 +16,24 @@ const JobDetails = () => {
     const [cart, setCart] = useState([]);
 
     useEffect(() => {
-        fetch('https://shaadhin-pesha.free.beeceptor.com/jobs')
+        fetch('https://pesha6.free.beeceptor.com/jobs')
             .then(res => res.json())
             .then(data => setJobs(data))
     }, [])
+
+    useEffect(() => {
+        const storedCart = getJobsCart();
+        const savedCart = [];
+        for (const id in storedCart) {
+            const addedJobs = jobs.find(job => job.id === id);
+            if (addedJobs) {
+                const quantity = storedCart[id];
+                addedJobs.quantity = quantity;
+                savedCart.push(addedJobs);
+            }
+        }
+        setCart(savedCart);
+    }, [jobs])
 
     useEffect(() => {
         const storedCart = getJobsCart();
@@ -80,7 +94,7 @@ const JobDetails = () => {
                 </p>
             </div>
             <div className='job-details-info'>
-                <h4>Job Details</h4>
+                <h4 className='job-details-title'>Job Details</h4>
                 <hr />
                 <p>
                     <FontAwesomeIcon icon={faBangladeshiTakaSign} className='icon' />
@@ -92,7 +106,7 @@ const JobDetails = () => {
                     <b>Job Title: </b>
                     {title}
                 </p>
-                <h4>Contact Information</h4>
+                <h4 className='job-details-title'>Contact Information</h4>
                 <hr />
                 <p>
                     <FontAwesomeIcon icon={faPhone} className='icon' />

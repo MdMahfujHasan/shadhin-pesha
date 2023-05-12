@@ -1,0 +1,20 @@
+.blogs {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blogs h3 {
+    border-left: 3px solid tomato;
+    padding-left: 5px;
+}
+
+.blogs p {
+    line-height: 30px;
+    color: #525252;
+    font-size: 1.1em;
+}
+
+.blogs span {
+    color: tomato;
+    font-size: 2em;
+}

@@ -12,8 +12,10 @@ import Statistics from './components/Statistics/Statistics';
 import Blogs from './components/Blogs/Blogs';
 import JobDetails from './components/JobDetails/JobDetails';
 import NotFound from './components/NotFound/NotFound';
-import AppliedJobs2 from './components/AppliedJobs2/AppliedJobs2';
 import AppliedJobs3 from './components/AppliedJobs3/AppliedJobs3';
+import cartJobsLoader from './loaders/cartJobsLoader';
+import ReviewJob from './components/ReviewJob/ReviewJob';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 
 const router = createBrowserRouter([
   {
@@ -23,12 +25,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('https://pesha1.free.beeceptor.com/jobs')
+        loader: () => fetch('https://pesha6.free.beeceptor.com/jobs')
       },
       {
         path: "job/:jobId",
         element: <JobDetails></JobDetails>,
-        loader: ({ params }) => fetch(`https://pesha1.free.beeceptor.com/job/${params.jobId}`)
+        loader: ({ params }) => fetch(`https://pesha6.free.beeceptor.com/job/${params.jobId}`)
       },
       {
         path: "statistics",
@@ -37,11 +39,9 @@ const router = createBrowserRouter([
       {
         path: "applied",
         element: <AppliedJobs3></AppliedJobs3>
+        // element: <ReviewJob></ReviewJob>
+        // element: <AppliedJobs></AppliedJobs>
       },
-      // {
-      //   path: "applied",
-      //   element: <h3>Added job after clicking <button className='btn-common'>Apply Now</button> button is below <span style={{ color: 'tomato' }}>"/job/jobId"</span> route. <small>i couldn't add those here :(</small></h3>
-      // },
       {
         path: "blogs",
         element: <Blogs></Blogs>

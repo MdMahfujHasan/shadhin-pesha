@@ -7,7 +7,7 @@ const AppliedJobs2 = () => {
     const appliedJobs = useContext(AppliedJobsContext);
     return (
         <div>
-            <h3>Applied Jobs: {appliedJobs.length}</h3>
+            <h3>All applied jobs down below:</h3>
             {
                 appliedJobs.map(job => <AppliedJobs3
                     key={job.id}

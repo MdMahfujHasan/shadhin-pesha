@@ -8,41 +8,41 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='footer-info'>
                 <div>
-                    <h2>Shadhin Pesha</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit id cupiditate quo quos dolorum perspiciatis!</p>
+                    <h3>Shadhin Pesha</h3>
+                    <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit id cupiditate quo quos dolorum perspiciatis.</small>
                     <img src={socialMedia} alt="" />
                 </div>
                 <div>
-                    <h3>Company</h3>
-                    <p>About Us</p>
-                    <p>Work</p>
-                    <p>Latest News</p>
-                    <p>Careers</p>
+                    <h4>Company</h4>
+                    <small>About Us</small>
+                    <small>Work</small>
+                    <small>Latest News</small>
+                    <small>Careers</small>
                 </div>
                 <div>
-                    <h3>Product</h3>
-                    <p>Prototype</p>
-                    <p>Plans and Pricing</p>
-                    <p>Customers</p>
-                    <p>Integration</p>
+                    <h4>Product</h4>
+                    <small>Prototype</small>
+                    <small>Plans and Pricing</small>
+                    <small>Customers</small>
+                    <small>Integration</small>
                 </div>
                 <div>
-                    <h3>Support</h3>
-                    <p>Help Desk</p>
-                    <p>Sales</p>
-                    <p>Become a Partner</p>
-                    <p>Developers</p>
+                    <h4>Support</h4>
+                    <small>Help Desk</small>
+                    <small>Sales</small>
+                    <small>Become a Partner</small>
+                    <small>Developers</small>
                 </div>
                 <div>
-                    <h3>Contact</h3>
-                    <p>House #12, Road #5, Block-B, Niketon, Gulshan-1, Dhaka, Bangladesh.</p>
-                    <p>+6742-258-1378</p>
+                    <h4>Contact</h4>
+                    <small>House #12, Road #5, Block-B, Niketon, Gulshan-1, Dhaka, Bangladesh.</small>
+                    <small>+6742-258-1378</small>
                 </div>
             </div>
             <hr />
             <div className='copyright'>
-                <p>@2023 Shadhin Pesha. All Rights Reserved.</p>
-                <p>Powered by Shadhin Pesha</p>
+                <small>@2023 Shadhin Pesha. All Rights Reserved.</small>
+                <small>Powered by Shadhin Pesha</small>
             </div>
         </div>
     );

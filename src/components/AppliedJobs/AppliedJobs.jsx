@@ -6,7 +6,7 @@ const AppliedJobs = ({ cart }) => {
 
     return (
         <div>
-            <h3>Applied Jobs</h3>
+            <h3>Applied Job</h3>
             {
                 cart.map(job => <Cart
                     key={job.id}
