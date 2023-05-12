@@ -8,7 +8,7 @@ const data = [
     { name: 'Assignment 3', value: 60 },
     { name: 'Assignment 4', value: 60 },
     { name: 'Assignment 5', value: 60 },
-    { name: 'Assignment 5', value: 58 }
+    { name: 'Assignment 6', value: 58 }
 ];
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
